@@ -1,0 +1,23 @@
+1. What is a computer?
+Computer is an electronic machine which takes an input, processes it and produce an output.It works on the instruction that it is feed with.
+
+2.What is RAM? 
+RAM (Random access memory) is the Memory that computer uses to store its data related to the processes that it is working upon.
+
+3.where is data stored in a computer ?
+Computer stores its data in Hard disc or ssd. (If the data is being processed it will be brought in RAM and upon completion of sent back to Hard disc).
+
+4.What is that input device used to type text and numbers on a computer document?
+KeyBoard
+
+5.What are the output devices?
+A device that returns the output to the user.eg. monitor, audio devices,etc.
+
+6.what is the input device that allows a user to move the cursor or pointer to screen ?
+Mouse
+
+7.Which language is directly understood by the computer without a translation program ?
+Binary
+
+8.What are input devices?
+A device that is used by users to provide input to the computers. Eg keyboard, mouse

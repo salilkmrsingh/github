@@ -1,0 +1,48 @@
+1.What is Statically typed and Dynamically typed Programming Language ?
+Statically typed => In these programming language, the type of variable have to be declared during declarations itself. Eg in java, we declare the variable with return type : int num;
+Dynamically typed => In these programming language, the type of the variable is determined at runtime and need not be declared during declaration. Eg. in javascript , we declare the variable as : let num;
+
+2.What is the variable in java ?
+Variable is just an alias name for memory locations. In easy terms, it's something that stores the values that can change.
+
+3.How to Assign a value to variable?
+To assign value, we use assignment operator.
+
+	int num = 5;
+	
+	int num2;
+	num2=12;
+
+4.What are Primitive Data types in java ?
+Primitive Data types are the data types that stores literals(simple values).eg int, short, byte, char, etc
+
+5.What are the identifiers in java?
+Identifiers are basically the unique variable name through which we can identify them.
+
+6.List the operators in java?
+There are following types of operators in java:
+	arithmetic operators : + - * / %
+	increment/ decrement : ++ -- (pre and post)
+	assignment operators : = += -= *= /= %=
+	logical operators : || && 
+	relational operators : < > == <= >= !=
+
+7.Explain about increment and decrement operators and give an examples
+Increment operator is used to increase the value by 1
+Decrement operator is used to decrease the value by 1
+
+They can pre and post:
+	pre => does increment/decrement before assignment
+	post => does assignment before increment/decrement 
+
+	eg : 	int a,b;
+		b=5;
+		a = ++b;
+		//a will be 6 and b will be 6
+
+		int a,b;
+		b=5;
+		a = b++;
+		//a will be 5 and b will be 6
+
+		

@@ -1,0 +1,36 @@
+
+1. How to create an Object in java ?
+To create a new object in java we use new keyword.
+Eg : suppose there is class named Movie.
+We can create an object of this class using : Movie movie = new Movie();
+
+2.What is the use of a new keyword in java?
+ new keyword is used to create a new instance(object) of class.
+Eg : suppose there is class named Movie.
+We can create an object of this class using : Movie movie = new Movie();
+
+
+3.what are the different types of variables in java ?
+There are three types of variables in java:
+	instance variable(created inside class without static keyword)
+	static variable (created inside a class with static keyword)
+	local variable : created inside a method(includes method parameters)
+
+4.What is the difference between Instance variable and Local variables ?
+Instance variables are created inside the class directly(without static keyword), but local variables are created inside the methods.
+Instance variables are can accessed from outside the class based on the scenerio(it should be not private, etc) but local variables can accessed in the given method only.
+
+5.In which area memory is allocated for instance variable and local variable?
+Instance variables are kept in heap area. Local primitive variables are kept in stack area and local non-primitive variables are kept in heap area.
+
+6.What is method overloading ?
+In same class, if we create method with same name but different signatures(different parameters) , it is called method overloading
+
+Eg. 	class Calc{
+		public int add(int n1, int n2){
+			return n1+n2;
+		}
+		public double add(double n1, double n2){
+			return n1+n2;
+		}
+	}

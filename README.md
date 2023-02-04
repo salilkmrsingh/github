@@ -9,3 +9,5 @@
 	For java fundamentals part 2, look into javafundamentals2.txt
 
 	For operators and loops , look into operatorsLoops.txt
+	
+	For oops , look into oops.txt

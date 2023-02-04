@@ -1,0 +1,87 @@
+
+1. What are the conditional operators in java ?
+Conditional operator is an operator where we can return value based on conditions
+
+Syntax : condition ? <return value for true> : <return value for false> 
+Eg :	 String type = age<18 ? "Kid" : "adult";
+
+2. What are the types of operators based on the number of operands ?
+There are three types of operators based on number of operands :
+	unary : contains one operand eg: increment/decrement operator
+	binary : contains two operands eg: arithmetic operators
+	ternary : contains three operands eg: conditional operator(only eg)
+
+3.What is the use of switch case in java programming ?
+We use switch case where have multiple possibilities based on condition.
+Eg : we have show month based on the number of month:
+	
+	switch(number){
+
+		case 1 : System.out.println("jan");break;
+		case 2 : System.out.println("feb");break;
+		case 3 : System.out.println("mar");break;
+		case 4 : System.out.println("apr");break;
+		case 5 : System.out.println("may");break;
+		case 6 : System.out.println("jun");break;
+		case 7 : System.out.println("jul");break;
+		case 8 : System.out.println("aug");break;
+		case 9 : System.out.println("sep");break;
+		case 10 : System.out.println("oct");break;
+		case 11 : System.out.println("nov");break;
+		case 12 : System.out.println("dec");break;
+		default : System.out.println("we don't have such months");
+
+	}
+
+4.what are the priority levels of arithmetic operation in java?
+The priority of arithmetic operators are as : (* / %) > (+ -)
+
+5.What are conditional statements and use of conditional statements in java ?
+Conditional statement helps to execute statements based on some conditions :
+Eg : 	if(age<18){
+		System.out.println("kid");
+	}else{
+		System.out.println("adult");
+	}
+
+6. What is the syntax of if else statement ?
+	if(condition){
+		//statements to be executed for true 
+	}else{
+		//statements to be executed for false
+	}
+7.What are the 3 types of iterative statements in java ?
+	1. For loop
+	eg : for(int i=0 /*initialization*/ ;i<10 /*condition*/; i++ /*update*/){
+		System.out.println(i); //statements to executed repeatedly
+	}
+	2. While loop
+	eg : 	int i=0; /*initialization*/
+		while(i<10 /*condition*/){
+			System.out.println(i); //statements to executed repeatedly
+			i++; /*update*/
+		}
+	3. Do while 
+	eg : 	int i=0; /*initialization*/
+		do{
+			System.out.println(i); //statements to executed repeatedly
+			i++; /*update*/
+		}while(i<10 /*condition*/);
+
+8.Write the difference between for loop and do-while loop?
+In for loop the initilization , condition and update lies at the same place, but in do while these are scattered at three places
+In for loop the condition is check before loop execution, but in do while the condition is check after loop execution
+In for loop execution can happen zero or more times, but in do while loop the execution happens one or more times
+For loop is very popular in use, but do while has has very limited and rare uses.
+
+9.Write a program to print numbers from 1 to 10.
+
+class HelloWorld {
+    public static void main(String[] args) {
+        for(int i=1;i<=10;i++){
+            System.out.print(i+" ");
+        }
+    }   
+}
+
+

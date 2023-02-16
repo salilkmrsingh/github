@@ -1,0 +1,31 @@
+1.What is the default value of Array for different data types?
+null 
+
+2.Can you pass the negative number in Array size?
+no
+
+3.Where does Array stored in JVM memory?
+Array is stored in heap area(Array is also an object only).
+
+4.What are the disadvantages of Array?
+Array has following disadvantages:
+	1. Static size.
+	2. Stores only similar data types. (Its more of an advantage but sometimes act as an disadvantage)
+	3. Uses memory adjacent to each other in a contiguous manner.
+	4. Deleting elements is not efficient
+	
+
+5. What is an Anonymous Array in java? Give an example?
+Think of a scenario where we need to pass an Array as an argument to a method. In those scenarios creating an array an assigning it to variable is not necessary. We can use an anonymous array in that case . Eg method(new int[]{1,2,3});
+
+6. What are the different ways to traverse an Array in java?
+
+For loop, while loop, (technically we can use do while loop but we should avoid do while), for each loop.
+
+7. What is the difference between length and length() method . Give an Examples
+length is a variable while length() is a method. 
+In array , to access size the length variable has been exposed directly, but in String to access size length() method has been exposed.
+
+Eg. 	int arrSize = arr.length;
+	int strSize = str.length();
+

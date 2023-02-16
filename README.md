@@ -11,3 +11,5 @@
 	For operators and loops , look into operatorsLoops.txt
 	
 	For oops , look into oops.txt
+
+	Arrays solution added in Arrays folder.(Array1.txt and Array2.txt)

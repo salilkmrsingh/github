@@ -1,0 +1,48 @@
+1. What do you mean by an Array ?
+Array is a collection of similar data types.
+
+2.How to create an Array?
+To create an Array, we use the following syntax: 
+	int[] arr1 = new int[5];
+	int[] arr2 = {1,2,3,4,5};
+
+3.Can we change the size of an array at run time? 
+No, array has static size which can cannot be changed once initialised.
+
+4.Can you declare an Array without assigning the size of an array?
+No, we can initialise without declaring its size.
+
+5.What is the default value of Array?
+null
+
+6.What is a 1D array with an example?
+1D array is a simple array which stores data in a linear fashion.
+
+Eg int[] arr = new int[5]; //here arr is an 1D array.
+
+7.Write a program on a 2D array.
+
+import java.util.*;
+public class Main{
+
+	public static void main(String[] args){
+		int[][] marksOfStudents = new int[10][3];
+			
+		for(int i=0 ; i<10; i++){
+			for(int j=0; j<3; j++){
+				Scanner sc = new Scanner(System.in);
+				System.out.println("Enter marks-"+j+" for student-"+(i+1));
+				marksOfStudents[i][j]=sc.nextInt();
+			}
+		}
+
+		for(int i=0 ; i<10; i++){
+			int sum = 0;
+			for(int j=0; j<3; j++){
+				sum+=marksOfStudents[i][j];
+			}
+			System.out.println("Average for student-"+(i+1)+" is "+sum/3.0);
+		}
+	}
+
+}
